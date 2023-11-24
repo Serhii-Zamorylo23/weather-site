@@ -1,0 +1,86 @@
+body{
+    background: url(/img/1_winter_snow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 1251px;
+    height: 602px;
+    background: rgba(255, 255, 255, 0.64);
+    margin: 0 auto;
+    border-radius: 96px;
+    &_header{
+        width: 50%;
+        margin: 0 auto;
+        &_input{
+            width: 100%;
+            border: none;
+            border-radius: 20px;
+            height: 20px;
+        }
+    }
+    &_main{
+        display: flex;
+        width: 1142px;
+        height: 252.2px;
+        margin: 0 auto;
+        margin-top: 64px;
+        justify-content: space-between;
+        &_one{
+            width: 421px;
+            height: 100%;
+            &_dayAndDate{
+                display: flex;
+                column-gap: 39px;
+                width: 421px;
+                &_date{
+                    font-size: 36px;
+                    height: auto;
+                }
+                &_day{
+                    font-size: 36px;
+                }
+            }
+            &_wind{
+                display: flex;
+                width: 173px;
+                align-items: center;
+                &_svg{
+                    width: 50px;
+                    height: 50px;
+                }
+                &_text{
+                    font-size: 32px;
+                }
+            }
+        }
+        &_two{
+            width: 281px;
+            height: 100%;
+            &_rain{
+                font-size: 24px;
+            }
+            &_rain2{
+                font-size: 24px;
+            }
+        }
+        &_three{
+            width: 240px;
+            height: 100%;
+            &_hour{
+                font-size: 36px;
+                text-align: right;
+            }
+            &_weather{
+                justify-content: space-between;
+                align-items: center;
+                display: flex;
+                width: 100%;
+                &_temperature{
+                    font-size: 36px;
+                }
+            }
+        }
+    }
+}
