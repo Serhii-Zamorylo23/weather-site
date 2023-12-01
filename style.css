@@ -13,6 +13,7 @@ body {
   border-radius: 96px;
 }
 .container_header {
+  display: flex;
   width: 50%;
   margin: 0 auto;
 }
@@ -21,6 +22,16 @@ body {
   border: none;
   border-radius: 20px;
   height: 20px;
+  padding-left: 10PX;
+}
+.container_header_btn {
+  border: none;
+  height: 20px;
+  width: 20px;
+}
+.container_header_btn_search {
+  height: 20px;
+  width: 20px;
 }
 .container_main {
   display: flex;
